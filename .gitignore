@@ -1,0 +1,66 @@
+# ============================================================
+# RVC Studio - Git Ignore
+# ============================================================
+
+# --- Removed/Temp ---
+_removed/
+TEMP/
+
+# --- Logs ---
+logs/
+*.log
+
+# --- Python cache ---
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.pdb
+
+# --- Embedded Python Runtime (too large for GitHub) ---
+runtime/
+
+# --- Large Audio Training Files ---
+opt/
+
+# --- AI Model Weights & Indexes (download separately) ---
+assets/weights/
+assets/pretrained/
+assets/pretrained_v2/
+assets/hubert_base/
+assets/rmvpe/
+assets/pymss_weights/
+assets/indices/
+
+# Keep empty folders tracked
+!assets/weights/.gitkeep
+!assets/pretrained/.gitkeep
+!assets/pretrained_v2/.gitkeep
+!assets/hubert_base/.gitkeep
+!assets/rmvpe/.gitkeep
+!assets/pymss_weights/.gitkeep
+!assets/indices/.gitkeep
+
+# --- Large Binary Executables ---
+ffmpeg.exe
+ffprobe.exe
+
+# --- Presentation ---
+*.pptx
+*.ppt
+
+# --- Virtual Environments ---
+venv/
+env/
+.venv/
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- IDE ---
+.vscode/
+.idea/
+*.suo
+*.user
